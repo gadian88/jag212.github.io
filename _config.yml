@@ -1,7 +1,7 @@
 # General
-name: Minimal-Block
-description: "Minimalistic, friendly, responsive."
-url: http://localhost:4000
+name: jag's blog
+description: "THANKS GOD. It's Friday."
+url: http://jag212.github.io
 
 markdown: redcarpet
 highlighter: pygments
@@ -10,11 +10,6 @@ paginate: 5
 permalink: /:title
 
 # Social share and comments.
-disqus-id: yourusername
-twitter: yourusername
-github: yourusername
-google: +yourusername
-
-# RSS feed
-rss-feed-limit: 10
-rss-show-full: "no"
+disqus-id: jag212
+github: jag212
+google: +jag212
