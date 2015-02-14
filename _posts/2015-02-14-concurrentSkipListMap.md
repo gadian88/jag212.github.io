@@ -99,6 +99,7 @@ sun.misc.Unsafe
 
 <br>
 다음은 소스를 보다가 우연치 않게 발견한 재미있는 변화입니다.
+<br>
 **JDK 1.6**
 {% highlight java %}
 if (n != null) {
@@ -129,7 +130,7 @@ if (n != null) {
 
 ---
 
-<br><br>
+<br>
 ###JDK 1.7 -> JDK 1.8
 
 JDK 1.7에서 JDK 1.8로 가면서 concurrentSkipListMap 상의 변화는 사실 엄청 많은 줄 알았습니다. 주로 Eclipse에서 지원하는 compare 기능을 이용하여 소스를 비교하였는데, JDK 1.8에서는 JDK 1.7과 메소드와 클래스들의 순서가
@@ -137,7 +138,8 @@ JDK 1.7에서 JDK 1.8로 가면서 concurrentSkipListMap 상의 변화는 사실
 
 <br>
 먼저 가장 눈에 띄인 것은 annotation이 많이 사용되었다는 것입니다. 아래 두 코드를 비교해보세요.
-<br>**JDK 1.7**
+<br><br>
+**JDK 1.7**
 {% highlight java %}
 V getValidValue() {
 	Object v = value;
@@ -160,7 +162,8 @@ V getValidValue() {
 @SuppressWarnings이 사용되어 있습니다. 사실 평소에 경고가 나오더라도 그냥 무시하는 것이 다반사인데, 이런 점에서 JDK JDK 1.8의 concurrentSkipListMap은 좀 더 세심하게 개발되지 않았나 싶은 생각도 들었습니다.
 
 <br>다음은 조금 스스로 생각하게 되는 변화를 보게 되었습니다.
-<br>**JDK 1.7**
+<br><br>
+**JDK 1.7**
 {% highlight java %}
 int j = randomLevel();
 if (j > h.level) j = h.level + 1;
@@ -184,7 +187,9 @@ if ((rnd & 0x80000001) == 0) {
 지금까지 concurrentSkipListMap의 JDK 별 발전 과정을 보았습니다. JDK JDK 1.7에서 JDK 1.8로 변화하면서 메소드 이름과 순서가 너무 많이 바뀌어서 아직까지 변화 과정을 하나하나 다 찾아보지는 못했습니다. ㅠㅠ
 좀 더 많은 시간을 가지고 JDK 1.8에서의 변화 과정을 찾는대로 계속 업데이트 해나가겠습니다. 부족한 글이지만 읽어주셔서 감사합니다.
 
-참조
+####참조
 [http://dontcryme.blog.me/30124306779] (http://dontcryme.blog.me/30124306779)
+<br>
 [http://deepblue28.tistory.com/entry/Java-SynchronizedCollections-vs-ConcurrentCollections] (http://deepblue28.tistory.com/entry/Java-SynchronizedCollections-vs-ConcurrentCollections)
+<br>
 [http://rangken.github.io/blog/2015/sun.misc.unSafe/] (http://rangken.github.io/blog/2015/sun.misc.unSafe/)
