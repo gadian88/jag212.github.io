@@ -99,7 +99,7 @@ sun.misc.Unsafe
 
 <br>
 다음은 소스를 보다가 우연치 않게 발견한 재미있는 변화입니다.
-<br>
+<br><br>
 **JDK 1.6**
 {% highlight java %}
 if (n != null) {
@@ -129,8 +129,6 @@ if (n != null) {
 앞서도 계속 언급했지만 JDK 1.6에서 JDK 1.7로의 변화점은 거의 없다고 보셔도 됩니다. 그럼 다음으로 JDK 1.7에서 JDK 1.8로의 변화 사항에 대해 알아보겠습니다.
 
 ---
-
-<br>
 ###JDK 1.7 -> JDK 1.8
 
 JDK 1.7에서 JDK 1.8로 가면서 concurrentSkipListMap 상의 변화는 사실 엄청 많은 줄 알았습니다. 주로 Eclipse에서 지원하는 compare 기능을 이용하여 소스를 비교하였는데, JDK 1.8에서는 JDK 1.7과 메소드와 클래스들의 순서가
