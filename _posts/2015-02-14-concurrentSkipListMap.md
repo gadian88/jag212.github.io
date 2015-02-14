@@ -95,7 +95,7 @@ sun.misc.Unsafe
 <br>Java concurrency에서 동기화를 구현하기 위해 사용하는 클래스입니다. 이는 CAS(Compare-And-Swap)을 통해 동기화를 구현합니다. 위의 소스 코드에서도 compareAndSet과 compareAndSwapObject를 볼 수 있는데,
 이 둘 역시 차이점은 없다고 보면 됩니다. 웹 검색 결과, 최근에는 Compare And Swap라는 말로 이용되는 듯하고, 메모리 상에서 원자적 연산을 통해 동기화를 맞추기 위해 CPU에서 제공해주는 연산을 가리키는 말이라고 합니다.
 이름이 Unsafe인 이유는 자바의 경우 프로그래머가 메모리에 직접 접근하여 이상한 실수를 하는 일이 없지만, 이를 이용하면 의도적으로 그런 실수를 할 수도 있다고 합니다. 따라서 JDK 내부적으로는 사용을 하고 있지만
-안전하지 않기 때문에, Userland에서는 사용하지 않도록 권장하고 있는 api 입니다.
+안전하지 않기 때문에, Userland에서는 사용하지 않도록 권장하고 있는 api 입니다. Compare And Swap에 대해 자세히 알고 싶으시면 [이 글] (http://en.wikipedia.org/wiki/Compare-and-swap)을 참조하세요
 
 <br>
 다음은 소스를 보다가 우연치 않게 발견한 재미있는 변화입니다.
