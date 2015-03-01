@@ -31,7 +31,7 @@ mybatis로 넘어오신 분들도 이렇게 생각하시는 분들이 많이 계실지도 모르겠습니다. �
 + 어노테이션이 적용된 메소드의 Parameter Type은 Parameter Type 설정이 됩니다.(써놓고 보니 같군요..)
 <br>
 그럼 간단한 예제를 보도록 하겠습니다.
-![1]({{ http://jag212.github.io }}/assets/mapper1.PNG)
+![1]({{ http://jag212.github.io }}/assets/mapper1.png)
 <br>
 생각보다 어렵지 않습니다. select나 update 등 원하는 어노테이션만 추가하고 위와 같이 String으로 DML을 작성하시면 됩니다.
 하지만 위와 같이 작성을 할 경우엔 조건문이나 반복문 등 동적 SQL을 작성하기는 어렵겠지요.
@@ -44,7 +44,7 @@ mybatis로 넘어오신 분들도 이렇게 생각하시는 분들이 많이 계실지도 모르겠습니다. �
 <br>
 위의 Provider 어노테이션들을 가지고 DML을 작성해보도록 하겠습니다.
 <br><br>
-![1]({{ http://jag212.github.io }}/assets/mapper2.PNG)
+![1]({{ http://jag212.github.io }}/assets/mapper2.png)
 <br><br>
 간단한가요? 사실 제가 이렇게 포스팅을 남긴다고 해도 대부분이 mapper는 xml로 작성하고, 저 역시도 그렇게 하겠지요..
 과연 이렇게 interface로 mapper를 작성하면 어떤 장점이 있을까를 인터넷에서 보니, 매핑 구문을 사용할 대 interface의 메소드를
