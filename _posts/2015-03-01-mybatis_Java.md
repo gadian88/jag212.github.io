@@ -25,10 +25,10 @@ mybatis로 넘어오신 분들도 이렇게 생각하시는 분들이 많이 계
 <br>
 먼저, interface로 mapper를 작성하기 위해서는 xml에서 사용하는 설정이 어떻게 interface에서 적용되는지 알아야 합니다.<br>
 <br>
- * interface의 패키지 이름과 interface의 이름은 mapping을 구분할 네임스페이스가 됩니다.
- * 어노테이션이 적용된 메소드의 이름은 mapping을 구분할 id값이 됩니다.
- * 어노테이션이 적용된 메소드의 리턴 타입은 resultType 속성이 됩니다.
- * 어노테이션이 적용된 메소드의 Parameter Type은 Parameter Type 설정이 됩니다.(써놓고 보니 같군요..)
+*   interface의 패키지 이름과 interface의 이름은 mapping을 구분할 네임스페이스가 됩니다.
+*   어노테이션이 적용된 메소드의 이름은 mapping을 구분할 id값이 됩니다.
+*   어노테이션이 적용된 메소드의 리턴 타입은 resultType 속성이 됩니다.
+*   어노테이션이 적용된 메소드의 Parameter Type은 Parameter Type 설정이 됩니다.(써놓고 보니 같군요..)
 
 <br>
 그럼 간단한 예제를 보도록 하겠습니다.<br><br>
