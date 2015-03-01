@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title:  "mybatis mapper JAVA 파일로 만들기"
 date:   2015-03-01 18:00:00
