@@ -5,7 +5,6 @@ date:   2015-03-01 18:00:00
 categories: database
 tags: mybatis
 ---
-<br>
 이번 포스팅에서는 mybatis의 mapper 파일을 JAVA파일로 작성해보는 것을 알아보고자 합니다.
 사실 spring과 mybatis를 연동하는 프로젝트를 만들면서 대부분이 mapper는 xml로 작성하는 것이 기본적입니다.
 물론 그렇게 만드는 것이 좀 더 수정도 편하게 할 수 있고, 가독적인 측면에서도 좀 더 보기 편한 장점 등 여러 장점이 있겠습니다.
