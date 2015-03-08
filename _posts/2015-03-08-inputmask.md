@@ -29,7 +29,7 @@ tags: inputmask
 그럼 이제부터 간단한 예제를 통해 inputmask를 활용하는 방법을 보겠습니다.
 
 <br>
-{% highlight java %}
+{% highlight html %}
 <!DOCTYPE html>
 <html>
 <head>
