@@ -1,32 +1,32 @@
 ---
 layout: post
-title:  "inputmask »ç¿ëÇØº¸±â"
+title:  "inputmask ì‚¬ìš©í•´ë³´ê¸°"
 date:   2015-03-08 18:00:00
 categories: tech
 tags: inputmask
 ---
 <br>
-ÀÌ¹ø Æ÷½ºÆÃÀº jquery inputmask¸¦ ÅëÇØ Á» ´õ ÆíÇÏ°Ô ÀÔ·Â°ªÀ» ¿øÇÏ´Â ÇüÅÂ·Î input¿¡ ´ãÀ» ¼ö ÀÖ´Â ¹æ¹ýÀ» ¼Ò°³ÇÕ´Ï´Ù.
-Á¦°¡ inputmask¸¦ »ç¿ëÇÏ°Ô µÈ °è±â´Â °úÁ¦¸¦ ¸Ã¾Æ ¼öÇàÇÏ´ø Áß inputÀ¸·Î ¹Ýµå½Ã ¼ýÀÚ¸¸ ÀÔ·ÂÇÒ °Í, Ãµ´ÜÀ§·Î ',' »ç¿ëÇÏ¿© ±¸ºÐÀ» ½±°Ô ÇÒ °Í.
-ÀÌ¶ó´Â ¿ä±¸ »çÇ×ÀÌ ÀÖ¾î¼­ ÀÌ¸¦ ¾î¶»°Ô ÇÏ¸é ´õ ÆíÇÏ°Ô ¸¸µé ¼ö ÀÖÀ»±î¸¦ °í¹ÎÇÏ´ø Áß, inputmask¸¦ »ç¿ëÇÏ¸é Á» ´õ ÆíÇÏ°Ô ÀÌ¸¦ ±¸ÇöÇÒ ¼ö ÀÖ´Ù´Â °ÍÀ»
-µè°Ô µÇ¾î ÀÌ¸¦ È°¿ëÇØ º¸°íÀÚ ÀÌ·¸°Ô Æ÷½ºÆÃÀ» ÇÕ´Ï´Ù.
+ì´ë²ˆ í¬ìŠ¤íŒ…ì€ jquery inputmaskë¥¼ í†µí•´ ì¢€ ë” íŽ¸í•˜ê²Œ ìž…ë ¥ê°’ì„ ì›í•˜ëŠ” í˜•íƒœë¡œ inputì— ë‹´ì„ ìˆ˜ ìžˆëŠ” ë°©ë²•ì„ ì†Œê°œí•©ë‹ˆë‹¤.
+ì œê°€ inputmaskë¥¼ ì‚¬ìš©í•˜ê²Œ ëœ ê³„ê¸°ëŠ” ê³¼ì œë¥¼ ë§¡ì•„ ìˆ˜í–‰í•˜ë˜ ì¤‘ inputìœ¼ë¡œ ë°˜ë“œì‹œ ìˆ«ìžë§Œ ìž…ë ¥í•  ê²ƒ, ì²œë‹¨ìœ„ë¡œ ',' ì‚¬ìš©í•˜ì—¬ êµ¬ë¶„ì„ ì‰½ê²Œ í•  ê²ƒ.
+ì´ë¼ëŠ” ìš”êµ¬ ì‚¬í•­ì´ ìžˆì–´ì„œ ì´ë¥¼ ì–´ë–»ê²Œ í•˜ë©´ ë” íŽ¸í•˜ê²Œ ë§Œë“¤ ìˆ˜ ìžˆì„ê¹Œë¥¼ ê³ ë¯¼í•˜ë˜ ì¤‘, inputmaskë¥¼ ì‚¬ìš©í•˜ë©´ ì¢€ ë” íŽ¸í•˜ê²Œ ì´ë¥¼ êµ¬í˜„í•  ìˆ˜ ìžˆë‹¤ëŠ” ê²ƒì„
+ë“£ê²Œ ë˜ì–´ ì´ë¥¼ í™œìš©í•´ ë³´ê³ ìž ì´ë ‡ê²Œ í¬ìŠ¤íŒ…ì„ í•©ë‹ˆë‹¤.
 
 ---
-#Ã¹ ¹øÂ° ³ªÀÇ ½Ãµµ
+#ì²« ë²ˆì§¸ ë‚˜ì˜ ì‹œë„
 <br>
-Ã³À½ ÀÌ ¿ä±¸»çÇ×À» µè°í °¡Àå ¸ÕÀú Á¤±Ô½ÄÀ» »ç¿ëÇÏÀÚ´Â »ý°¢À» ÇÏ°Ô µÇ¾ú½À´Ï´Ù. ±×¸®°í ÀÌ¸¦ ´ÙÀ½°ú °°ÀÌ ±¸ÇöÇÏ±â·Î ÇÏ¿´½À´Ï´Ù.
+ì²˜ìŒ ì´ ìš”êµ¬ì‚¬í•­ì„ ë“£ê³  ê°€ìž¥ ë¨¼ì € ì •ê·œì‹ì„ ì‚¬ìš©í•˜ìžëŠ” ìƒê°ì„ í•˜ê²Œ ë˜ì—ˆìŠµë‹ˆë‹¤. ê·¸ë¦¬ê³  ì´ë¥¼ ë‹¤ìŒê³¼ ê°™ì´ êµ¬í˜„í•˜ê¸°ë¡œ í•˜ì˜€ìŠµë‹ˆë‹¤.
 <br>
 {% highlight java %}
-//Ã¤¿ö³ÖÀ» °Í
+//ì±„ì›Œë„£ì„ ê²ƒ
 {% endhighlight %}
 <br>
-À§¿¡¼­´Â ¸ÕÀú Á¤±Ô½ÄÀ» ÅëÇØ ¼ýÀÚ°¡ ¾Æ´Ñ Å¸ÀÔÀº ºó¹®ÀÚ·Î ¹Ù²Ù°í, ´Ù½Ã ÀÌ¸¦ Ãµ ´ÜÀ§·Î Ã£¾Æ ','¸¦ Âï´Â ¹æ½ÄÀÔ´Ï´Ù.
-¹°·Ð À§ÀÇ ¹æ½ÄÀ» ÅëÇØ ±¸ÇöÀ» ÇÑ´Ù°í ÇØµµ ¹®Á¦¾øÀÌ ¿øÇÏ´Â ±â´ÉÀ» ¼öÇàÇÏÁö¸¸, ÀÌ ±ÛÀº inputmaskÀÇ È°¿ëÀ» °øºÎÇØº¸°íÀÚ ÀÛ¼ºÇÏ¿´À¸¹Ç·Î, º»°ÝÀûÀ¸·Î inputmask¸¦ »ç¿ëÇØº¸µµ·Ï ÇÏ°Ú½À´Ï´Ù.
+ìœ„ì—ì„œëŠ” ë¨¼ì € ì •ê·œì‹ì„ í†µí•´ ìˆ«ìžê°€ ì•„ë‹Œ íƒ€ìž…ì€ ë¹ˆë¬¸ìžë¡œ ë°”ê¾¸ê³ , ë‹¤ì‹œ ì´ë¥¼ ì²œ ë‹¨ìœ„ë¡œ ì°¾ì•„ ','ë¥¼ ì°ëŠ” ë°©ì‹ìž…ë‹ˆë‹¤.
+ë¬¼ë¡  ìœ„ì˜ ë°©ì‹ì„ í†µí•´ êµ¬í˜„ì„ í•œë‹¤ê³  í•´ë„ ë¬¸ì œì—†ì´ ì›í•˜ëŠ” ê¸°ëŠ¥ì„ ìˆ˜í–‰í•˜ì§€ë§Œ, ì´ ê¸€ì€ inputmaskì˜ í™œìš©ì„ ê³µë¶€í•´ë³´ê³ ìž ìž‘ì„±í•˜ì˜€ìœ¼ë¯€ë¡œ, ë³¸ê²©ì ìœ¼ë¡œ inputmaskë¥¼ ì‚¬ìš©í•´ë³´ë„ë¡ í•˜ê² ìŠµë‹ˆë‹¤.
 
 ---
 
-#inputmask È°¿ëÇÏ±â
-±×·³ ÀÌÁ¦ºÎÅÍ °£´ÜÇÑ ¿¹Á¦¸¦ ÅëÇØ inputmask¸¦ È°¿ëÇÏ´Â ¹æ¹ýÀ» º¸°Ú½À´Ï´Ù.
+#inputmask í™œìš©í•˜ê¸°
+ê·¸ëŸ¼ ì´ì œë¶€í„° ê°„ë‹¨í•œ ì˜ˆì œë¥¼ í†µí•´ inputmaskë¥¼ í™œìš©í•˜ëŠ” ë°©ë²•ì„ ë³´ê² ìŠµë‹ˆë‹¤.
 
 <br>
 {% highlight html %}
@@ -36,7 +36,7 @@ tags: inputmask
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <script src="http://code.jquery.com/jquery-1.11.0.js"></script>
-<script src="./dist/jquery.inputmask.bundle.js"></script>		<!-- inputmask lib Ãß°¡ -->
+<script src="./dist/jquery.inputmask.bundle.js"></script>		<!-- inputmask lib ì¶”ê°€ -->
 </head>
 <body>
 
