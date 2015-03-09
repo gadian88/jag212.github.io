@@ -12,7 +12,7 @@ tags: inputmask
 듣게 되어 이를 활용해 보고자 이렇게 포스팅을 합니다.
 
 ---
-##첫 번째 나의 시도
+###첫 번째 시도
 <br>
 처음 이 요구사항을 듣고 가장 먼저 정규식을 사용하자는 생각을 하게 되었습니다. 그리고 이를 다음과 같이 구현하기로 하였습니다.
 <br>
@@ -30,7 +30,7 @@ $("#number").keyup(function(){
 
 ---
 
-##inputmask 활용하기
+###inputmask 활용하기
 그럼 이제부터 간단한 예제를 통해 inputmask를 활용하는 방법을 보겠습니다.
 먼저 다음 link에서 jquery inputmask를 다운받습니다.<br><br>
 [https://github.com/RobinHerbots/jquery.inputmask] (https://github.com/RobinHerbots/jquery.inputmask)
