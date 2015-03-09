@@ -17,7 +17,10 @@ tags: inputmask
 처음 이 요구사항을 듣고 가장 먼저 정규식을 사용하자는 생각을 하게 되었습니다. 그리고 이를 다음과 같이 구현하기로 하였습니다.
 <br>
 {% highlight html %}
-<!-- 채워넣을것 -->
+$("#number").keyup(function(){
+		    var replacedNumber = $(this).val().replace(/[^\d]/g, "").replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+		    $(this).val(replacedNumber);
+		})
 {% endhighlight %}
 <br>
 위에서는 먼저 정규식을 통해 숫자가 아닌 타입은 빈문자로 바꾸고, 다시 이를 천 단위로 찾아 ','를 찍는 방식입니다.
