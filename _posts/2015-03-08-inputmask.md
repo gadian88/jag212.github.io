@@ -6,7 +6,7 @@ categories: tech
 tags: inputmask
 ---
 <br>
-이번 포스팅은 jquery inputmask를 통해 좀 더 편하게 입력값을 원하는 형태로 input에 담을 수 있는 방법을 소개합니다.
+이번 포스팅은 jquery plugin인 inputmask를 통해 좀 더 편하게 입력값을 원하는 형태로 input에 담을 수 있는 방법을 소개합니다.
 제가 inputmask를 사용하게 된 계기는 과제를 맡아 수행하던 중 "input으로 반드시 숫자만 입력할 것, 천단위로 ',' 사용하여 구분을 쉽게 할 것."
 이라는 요구 사항이 있어서 이를 어떻게 하면 더 편하게 만들 수 있을까를 고민하던 중, inputmask를 사용하면 좀 더 편하게 이를 구현할 수 있다는 것을
 듣게 되어 이를 활용해 보고자 이렇게 포스팅을 합니다.
@@ -32,7 +32,7 @@ $("#number").keyup(function(){
 
 ###inputmask 활용하기
 그럼 이제부터 간단한 예제를 통해 inputmask를 활용하는 방법을 보겠습니다.
-먼저 다음 link에서 jquery inputmask를 다운받습니다.<br><br>
+먼저 다음 link에서 jquery inputmask plugin을 다운받습니다.<br><br>
 [https://github.com/RobinHerbots/jquery.inputmask] (https://github.com/RobinHerbots/jquery.inputmask)
 <br><br>
 그리고 다음 예제를 살펴보겠습니다.
