@@ -19,7 +19,7 @@ tags: eclipse
 이에 이를 좀 더 효율적으로 이용하는 방법은 없을까를 찾아보던 중 유용한 plugin을 알게 되어 소개드리고자 합니다. (이 2개의 plugin은 eclipse의 marketplace에서 검색하여 설치하실 수 있습니다.)
 <br>
 먼저 제가 기존에 file search를 이용하는 단계를 살펴보겠습니다.
-<br>
+<br><br>
 1. ctrl + H를 눌러 search 메뉴를 연다.<br>
 2. file search 탭으로 이동한다.<br>
 3. 검색어를 입력 후, 원하는 확장자로 파일을 제한한다.(sqlmap이므로 .xml)<br>
