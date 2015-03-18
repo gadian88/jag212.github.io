@@ -56,10 +56,10 @@ IE의 속성에서 -nomerge 옵션을 주는 방법입니다. 이를 통해 새�
 이는 직접 레지스트리를 수정하는 방법으로 다음 문자열을 메모장에 붙여넣고 확장자를 *.reg로 파일을 생성, 실행한 뒤, 재부팅을 하면 IE가 새로운 세션으로 열리는 것을 확인하실 수 있습니다.
 <br>
 
-> Windows Registry Editor Version 5.00
-> [HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main]
-> "FrameMerging"=dword:00000000
-> "SessionMerging"=dword:00000000
+> Windows Registry Editor Version 5.00<br>
+> [HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main]<br>
+> "FrameMerging"=dword:00000000<br>
+> "SessionMerging"=dword:00000000<br>
 
 <br>
 그럼 위의 방법을 통해 새로운 세션으로 열린 IE의 프로세스는 어떨지 마지막으로 확인해보도록 하겠습니다.
