@@ -21,12 +21,12 @@ tags: session
 <br>
 먼저 작업관리자를 켜놓은 상태로 IE를 하나 실행해보도록 하겠습니다. 실행 후 확인을 해보면 2개의 iexplore 프로세스(*32가 붙은 것과 붙지 않은 것)가 생성된 것을 볼 수 있습니다.
 <br><br>
-![1]({{ http://jag212.github.io }}/assets/newsession1.png)
+![1]({{ http://jag212.github.io }}/assets/newsession1.PNG)
 <br>
 <br>
 다음으로 새 창을 하나 더 열어보겠습니다.
 <br><br>
-![1]({{ http://jag212.github.io }}/assets/newsession2.png)
+![1]({{ http://jag212.github.io }}/assets/newsession2.PNG)
 <br><br>
 프로세스가 하나 더 늘어난 것(*32가 붙은 것)을 볼 수 있습니다. 여기서 계속 새로운 창을 띄운다 해도 *32가 붙은 프로세스만 생겨날 뿐 *32가 붙지 않은 프로세스는 새로 생성되지 않습니다.
 이를 통해 메인에서 관리하는 프로세스(*32 붙지 않은 프로세스)가 하나 있고 브라우저 별로 한 개씩 프로세스(*32가 붙은)가 생기며, 모든 창이 닫히기 전까지 메인 프로세스가 살아있는 것을 볼 수 있었습니다.
@@ -43,13 +43,13 @@ tags: session
 <br>
 가장 간단한 방법입니다. 메뉴모음의 파일 탭에서 새 세션을 선택해 새로운 창을 띄우는 방법입니다.
 <br>
-![1]({{ http://jag212.github.io }}/assets/newsession3.png)
+![1]({{ http://jag212.github.io }}/assets/newsession3.PNG)
 <br><br>
 ####2. -nomerge 옵션 붙이기
 <br>
 IE의 속성에서 -nomerge 옵션을 주는 방법입니다. 이를 통해 새로운 창을 열면 항상 새로운 세션으로 실행되게 됩니다.
 <br>
-![1]({{ http://jag212.github.io }}/assets/newsession4.png)
+![1]({{ http://jag212.github.io }}/assets/newsession4.PNG)
 <br><br>
 ####3. 레지스트리 수정하기
 <br>
@@ -64,7 +64,7 @@ IE의 속성에서 -nomerge 옵션을 주는 방법입니다. 이를 통해 새�
 <br>
 그럼 위의 방법을 통해 새로운 세션으로 열린 IE의 프로세스는 어떨지 마지막으로 확인해보도록 하겠습니다.
 <br>
-![1]({{ http://jag212.github.io }}/assets/newsession5.png)
+![1]({{ http://jag212.github.io }}/assets/newsession5.PNG)
 <br><br>
 *32가 붙지않은 메인 프로세스가 하나 더 생겨난 것을 확인하실 수 있습니다. 이를 통해 브라우저 간 세션을 분리할 수 있고, 저처럼 여러 계정으로 동시에 테스트를 하는 경우에도
 보다 편하게 하실수 있을 것이라 생각합니다. 물론 이런 방법을 통하더라도 브라우저에서 탭 간의 세션은 공유되니 상황에 맞게 탭과 창을 이용해보도록 하세요^^
