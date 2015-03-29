@@ -51,6 +51,7 @@ MERGE INTO table_name alias
 간단히 예를 살펴보겠습니다.
   
 ####예1)
+{% highlight sql %}
 MERGE INTO copy_emp c
             USING employees e
             ON (c.employee_id = 200911)
@@ -66,6 +67,7 @@ MERGE INTO copy_emp c
 {% endhighlight %}
   
 ####예2)
+{% highlight sql %}
 MERGE INTO emp
             USING DUAL
             ON (employee_id = 200911)
