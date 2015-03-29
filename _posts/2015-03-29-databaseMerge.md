@@ -24,7 +24,7 @@ count의 값이 =0이면 insert를 실행하는 방법으로 굉장히 효율이
 
 {% highlight sql %}
 INSERT INTO students (NAME, email) VALUES ('apple', 'apple@naver.com') 
-ON DUPLICATE KEY UPDATE name='apple', email='apple@nhnent.com';
+ ON DUPLICATE KEY UPDATE name='apple', email='apple@nhnent.com';
 {% endhighlight %}
 
 위와 같이 쿼리를 작성하면 'apple'이라는 key 값이 존재할 경우 email이 'apple@nhnent.com'로 update 되고 'apple'이라는 key가 없다면 'apple@naver.com'
