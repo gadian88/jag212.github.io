@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "DB MERGE 구문 사용해보기"
+title:  "DB MERGE INTO 구문 사용해보기"
 date:   2015-03-29 18:00:00
 categories: tech
 tags: Database
