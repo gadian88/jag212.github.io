@@ -43,8 +43,8 @@ where rnum >= 21;
 
 ---
 
-##2. ROW_NUMBER() 이용하기
-위의 ROWNUM 방법 보다 좀 더 보기 좋은 query를 위해 찾아낸 방법은 바로 ROW_NUMBER() 함수를 이용하는 방법으로,
+##2. ROW\_NUMBER() 이용하기
+위의 ROWNUM 방법 보다 좀 더 보기 좋은 query를 위해 찾아낸 방법은 바로 ROW\_NUMBER() 함수를 이용하는 방법으로,
 이는 Oracle DB에서 rownum을 가지고 위와 비슷한 연산을 할때 이용하는 함수입니다. 예를 보겠습니다.
 
 {% highlight sql %}
@@ -56,8 +56,8 @@ WHERE RNUM BETWEEN 1 AND 20;
 {% endhighlight %}
   
 처음의 방법보다 subquery가 하나는 줄어든 것을 알 수 있습니다. 또한 BETWEEN을 사용하니 좀 더 명확한 느낌도 드는군요. 
-저는 처음에 ROW_NUMBER()보다는 RANK()를 많이 사용했는데, 둘의 차이가 있다면 RANK()는 동일한 값이 있을 경우 같은 값 출력(공동 2등이 존재할 수도 있다).
-ROW_NUMBER()는 동일한 값이 존재해도 반드시 순위가 갈린다는 점이 차이점입니다. 따라서 주로 ROW_NUMBER()을 사용하되, unique 속성과 같이 중복값이 없는
+저는 처음에 ROW\_NUMBER()보다는 RANK()를 많이 사용했는데, 둘의 차이가 있다면 RANK()는 동일한 값이 있을 경우 같은 값 출력(공동 2등이 존재할 수도 있다).
+ROW\_NUMBER()는 동일한 값이 존재해도 반드시 순위가 갈린다는 점이 차이점입니다. 따라서 주로 ROW\_NUMBER()을 사용하되, unique 속성과 같이 중복값이 없는
 게시글 번호 등의 경우 어느 것을 사용해도 크게 문제가 되진 않습니다.
   
 ---
