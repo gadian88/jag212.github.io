@@ -18,9 +18,9 @@ tags: chrome
 제가 당시 짰던 소스를 간단히 보여드리자면, 다음과 같습니다.
 
 {% highlight html %}
-	$("#reductionDate, #reduceTotal").css("display", "none");
+$("#reductionDate, #reduceTotal").css("display", "none");
 // .. 몇가지 작업 후, 이벤트 발생시
-	$("#reductionDate, #reduceTotal").css("display", "block");
+$("#reductionDate, #reduceTotal").css("display", "block");
 {% endhighlight %}
   
 위와 같이 구현을 하니 table이 일그러져 출력되는 상황이 발생하였습니다.  
@@ -32,7 +32,7 @@ tags: chrome
 해결법은 간단합니다. 다음과 같이 block이라고 쓴 css를 table-row라고 바꾸어주시면 손쉽게 해결 가능합니다. 
   
 {% highlight html %}
-	$("#reductionDate, #reduceTotal").css("display", "table-row");
+$("#reductionDate, #reduceTotal").css("display", "table-row");
 {% endhighlight %}
   
 ---
