@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Chrome에서 cross domain 문제 간단히 해결하기"
+title:  "Chrome에서 cross domain 문제 간단히 무시하기"
 date:   2015-05-24 18:00:00
 categories: tech
 tags: cross domain
