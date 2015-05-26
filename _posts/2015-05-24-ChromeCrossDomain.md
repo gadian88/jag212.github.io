@@ -41,8 +41,10 @@ document.domain = "naver.com";
   
 ![1]({{ http://jag212.github.io }}/assets/chromeCrossDomain.PNG)
   
-참고로, Mac을 사용하시는 분들은 터미널에서  
-open -a Google\ Chrome --args --disable-web-security  
+참고로, Mac을 사용하시는 분들은 터미널에서,  
+  
+open -a Google\ Chrome --args --disable-web-security
+    
 위와 같이 입력하여 실행하시면 된다고 합니다.
 
 ---
