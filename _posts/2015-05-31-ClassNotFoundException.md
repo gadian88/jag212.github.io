@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "eclipse에서 jsp파일 대소문자 변경시 재컴파일 에러"
+title:  "eclipse에서 jsp파일 대소문자 변경시 재컴파일 문제"
 date:   2015-05-31 18:00:00
 categories: tech
 tags: jsp
