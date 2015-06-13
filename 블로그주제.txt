@@ -1,3 +1,5 @@
 ibatis resultMap property나 쓰자
 
 오라클 max인 다른 컬럼 알고 싶다면?
+
+http://babytiger.tistory.com/entry/%EC%9E%90%EB%B0%94-%EA%B3%B5%EB%B6%80%ED%95%98%EB%8B%A4%EA%B0%80-%EC%83%88%EB%A1%AD%EA%B2%8C-%EC%95%8C%EA%B2%8C-%EB%90%9C-%EA%B2%83-3
